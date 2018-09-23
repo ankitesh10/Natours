@@ -4,6 +4,15 @@
     font-size: 1.4rem;
 
 
+    @include response(tablet-port){
+        padding: 8rem 0;
+    }
+
+    @include response(phone){
+        padding: 5rem 0;
+    }
+
+
     &__logo-box{
         text-align: center;
     }

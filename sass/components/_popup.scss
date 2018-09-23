@@ -65,7 +65,9 @@
         column-gap: 4rem;
         column-rule: 1px solid $light-grey-2;
 
-        hyphens: auto;
+       hyphens: auto;
+       -moz-hyphens: auto;
+       -webkit-hyphens: auto;
     }
 
     &:target{
